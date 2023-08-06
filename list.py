@@ -39,3 +39,15 @@ print(a)
 
 a.pop()
 print(a)
+
+a.extend([1, 2, 3, 4, 5, 6, 7, 8, 9])
+print(a)
+
+print(min(a))
+print(max(a))
+print(sum(a))
+print(len(a))
+print(a.count(2))
+print(a.index(2))
+# 1 is the element, 1 is the starting index, 10 is the ending index
+print(a.index(2, 5, 10))
