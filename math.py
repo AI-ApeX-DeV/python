@@ -20,7 +20,7 @@ print(m.inf)
 print(m.nan)
 print(m.floor(2.9))
 print(m.fabs(-2.9))
-print(m.fmod(2, 3))
+print(m.fmod(2, 3))  # remainder
 print(m.copysign(2, -3))
 print(m.isfinite(2))
 print(m.isinf(2))
