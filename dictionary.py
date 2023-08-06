@@ -20,3 +20,12 @@ b = ["navin", "kiran", "harsh", "rahul", "kirrr"]
 c = dict(zip(a, b))
 
 print(c)
+
+c[3] = [1, 2, 3, 4, 5]
+
+print(c)
+
+
+c[3] = {1: 'Navin', 2: 'Kiran', 3: 'Harsh', 4: 'Rahul'}
+
+print(c)
