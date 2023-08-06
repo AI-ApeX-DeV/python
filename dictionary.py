@@ -29,3 +29,7 @@ print(c)
 c[3] = {1: 'Navin', 2: 'Kiran', 3: 'Harsh', 4: 'Rahul'}
 
 print(c)
+
+
+a = {'rahul': 'samsung', 'harsh': 'iphone', 'kiran': 'realme'}
+print(a)
