@@ -35,3 +35,9 @@ for i in range(10):
         break
     else:
         print(i, end=" ")
+
+a = 5
+b = int(a)
+c = float(a)
+
+print()
