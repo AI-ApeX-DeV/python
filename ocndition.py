@@ -24,6 +24,12 @@ for i in range(10):
         print("this is 5", end=" ")
         continue
         print("this is cool")
+    elif i == 6:
+        pass
+    elif i == 7:
+        print("this is 7", end=" ")
+        pass
+        print("this is cool", end=" ")
     elif i == 8:
         print("this is 8 now its time to end the loop", end=" ")
         break
