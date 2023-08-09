@@ -5,3 +5,4 @@ class printing():
 
 ob = printing()
 ob.config()
+printing.config(ob)
