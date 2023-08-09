@@ -4,4 +4,5 @@ def greet():
     print("this is a cool stuff")
 
 
-greet()
+if __name__ == "__main__":
+    greet()
