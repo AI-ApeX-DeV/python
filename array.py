@@ -1,5 +1,6 @@
-from array import *  # from numpy import *
-vals = array('i', [1, 2, 3, 4, 5, 6])
+import array as arr  # from numpy import *
+from numpy import *  # from array import *
+vals = arr.array('i', [1, 2, 3, 4, 5, 6])
 print(vals)
 vals.reverse()
 print(vals)
@@ -7,6 +8,31 @@ print(vals.buffer_info())  # (address, size)
 print(vals.typecode)
 print(vals[0])
 
+a = linspace(0, 15, 16)
+print(a)
+a = logspace(0, 15, 16)
+print(a)
+a = 2.5432234
+print(a)
+print('%.2f' % a)
+
+arr = ones(5, int)
+print(arr)
+
+a = arr+5
+print(a)
+
+print(a+arr)
+
+print(sin(a))
+print(cos(a))
+print(log(a))
+print(sqrt(a))
+
+print(concatenate([a, arr]))
+
+arr = zeros(5, int)
+print(arr)
 
 a = array('i', [])
 n = int(input("Enter the length of the array: "))
