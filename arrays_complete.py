@@ -47,6 +47,47 @@ print("deep copy", arr2)
 arr = zeros(5, int)
 print(arr)
 
+# multi dimensional array
+arr = array([[1, 2, 3], [4, 5, 6]])
+print(arr)
+
+print(arr.dtype)
+print(arr.ndim)
+print(arr.shape)
+print(arr.size)
+
+arr = arr.flatten()
+print(arr)
+
+arr = arr.reshape(3, 2)
+print(arr)
+
+m = matrix(arr)
+print(m)
+
+m = matrix('1 2 3; 4 5 6; 7 8 9')
+print(m)
+
+print(diagonal(m))
+
+m1 = matrix('1 2 3; 4 5 6; 7 8 9')
+m2 = matrix('1 2 3; 4 5 6; 7 8 9')
+m3 = m1+m2
+print(m3)
+
+m3 = m1*m2
+print(m3)
+
+m3 = m1-m2
+print(m3)
+
+m3 = m1/m2
+print(m3)
+
+m3 = m1 % m2
+print(m3)
+
+
 a = array('i', [])
 n = int(input("Enter the length of the array: "))
 
