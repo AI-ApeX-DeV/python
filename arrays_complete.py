@@ -43,8 +43,6 @@ arr[1] = 7
 print("shadow copy", arr1)
 print("deep copy", arr2)
 
-# deep copy
-
 
 arr = zeros(5, int)
 print(arr)
