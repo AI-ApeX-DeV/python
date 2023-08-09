@@ -20,5 +20,9 @@ class Computer:
 com1 = Computer('i5', 16)
 com2 = Computer('Ryzen 3', 8)
 
+
 com1.config()
 com2.config()
+
+com1.cpu = 'i7'
+com1.config()
