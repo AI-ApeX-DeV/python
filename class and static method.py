@@ -15,7 +15,7 @@ class students:
         cls.school = "XYZ School"
         return cls.school
 
-    # @staticmethod
+    @staticmethod
     def info():
         print("This is students class... in abc module")
 
