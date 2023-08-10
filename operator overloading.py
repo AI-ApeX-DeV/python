@@ -19,6 +19,9 @@ class student:
         else:
             return False
 
+    def __str__(self):
+        return "{} {}".format(self.m1, self.m2)
+
 
 a = student()
 b = student()
@@ -26,6 +29,7 @@ a.marks(10, 20)
 b.marks(20, 30)
 
 c = a+b
+print(c)
 print(c.m1)
 print(c.m2)
 
@@ -33,3 +37,6 @@ if a > b:
     print("a wins")
 else:
     print("b wins")
+
+
+print(c)
