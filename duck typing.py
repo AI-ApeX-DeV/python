@@ -1,0 +1,16 @@
+class vscode:
+
+    def execute(self):
+        print("Compiling")
+        print("Running")
+
+
+class laptop:
+
+    def code(self, ide):
+        ide.execute()
+
+
+ide = vscode()
+lap = laptop()
+lap.code(ide)
