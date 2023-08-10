@@ -14,8 +14,10 @@ class Student:
             s = a+b+c
         elif a != None and b != None:
             s = a+b
-        else:
+        elif a != None:
             s = a
+        else:
+            s = 0
 
         return s
 
