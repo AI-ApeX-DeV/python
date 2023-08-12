@@ -21,8 +21,8 @@ class DoMul42(AbstractClassExample):
         return self.value * 42
 
 
-x = AbstractClassExample(10)
-x.do_something()
+# x = AbstractClassExample(10)
+# x.do_something()
 x = DoAdd42(10)
 y = DoMul42(10)
 print(x.do_something())
