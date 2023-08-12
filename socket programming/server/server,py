@@ -1,0 +1,15 @@
+import socket
+
+s = socket.socket()
+print("socket created")
+
+s.bind(('localhost', 9999))
+s.listen(2)
+print("wating for connections")
+while True:
+    connection, address = s.accept()
+    name = connection.recv(1024).decode()
+    print("connected with address: {} and name is : {}", address, name)
+    connection.send(bytes("welcome to telusko", 'utf-8'))
+    a = input("message : ")
+    connection.send(bytes(a, 'utf-8'))

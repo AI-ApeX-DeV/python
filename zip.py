@@ -1,5 +1,5 @@
 a = ['navin', 'kiran', 'harsh', 'navin']
-b = ['python', 'java', 'c', 'pyt']
+b = ['python', 'java', 'c', 'python']
 
 c = zip(a, b)
 print(c)
