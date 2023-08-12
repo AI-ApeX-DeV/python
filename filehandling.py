@@ -34,3 +34,5 @@ print("lets explore something different\n")
 f = open("data.txt", "r")
 print(f.read())
 f.close()
+
+# print("lets explore something different\n")
